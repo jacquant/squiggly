@@ -8,7 +8,7 @@ fi
 
 echo -n "Checking Version $version: "
 
-status=$(curl -s -o /dev/null -I -w "%{http_code}" http://central.maven.org/maven2/com/github/bohnman/squiggly-filter-jackson/${version}/squiggly-filter-jackson-${version}.jar)
+status=$(curl -s -o /dev/null -I -w "%{http_code}" http://central.maven.org/maven2/com/github/jacquant/squiggly-filter-jackson/${version}/squiggly-filter-jackson-${version}.jar)
 
 
 if [ "$status" == "" ]; then

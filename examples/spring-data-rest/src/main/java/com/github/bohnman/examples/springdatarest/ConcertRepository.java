@@ -1,4 +1,4 @@
-package com.github.bohnman.examples.springdatarest;
+package com.github.jacquant.examples.springdatarest;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.repository.query.Param;

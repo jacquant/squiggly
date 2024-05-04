@@ -1,4 +1,4 @@
-package com.github.bohnman.squiggly.examples.servlet.model;
+package com.github.jacquant.squiggly.examples.servlet.model;
 
 public class User {
 

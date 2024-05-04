@@ -1,4 +1,4 @@
-package com.github.bohnman.examples.springdatarest;
+package com.github.jacquant.examples.springdatarest;
 
 import java.util.List;
 

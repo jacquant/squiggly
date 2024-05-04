@@ -1,7 +1,7 @@
-package com.github.bohnman.squiggly.examples.servlet.model;
+package com.github.jacquant.squiggly.examples.servlet.model;
 
-import com.github.bohnman.squiggly.view.FullView;
-import com.github.bohnman.squiggly.view.PropertyView;
+import com.github.jacquant.squiggly.view.FullView;
+import com.github.jacquant.squiggly.view.PropertyView;
 
 import java.util.Arrays;
 import java.util.Collections;

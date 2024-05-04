@@ -1,4 +1,4 @@
-package com.github.bohnman.squiggly.examples.dropwizard.model;
+package com.github.jacquant.squiggly.examples.dropwizard.model;
 
 public class BaseIssue {
 

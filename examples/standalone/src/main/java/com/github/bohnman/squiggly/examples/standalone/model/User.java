@@ -1,4 +1,4 @@
-package com.github.bohnman.squiggly.examples.standalone.model;
+package com.github.jacquant.squiggly.examples.standalone.model;
 
 public class User {
 

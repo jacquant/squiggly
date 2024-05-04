@@ -21,9 +21,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.ser.PropertyWriter;
 import com.fasterxml.jackson.datatype.hibernate5.Hibernate5Module;
-import com.github.bohnman.squiggly.Squiggly;
-import com.github.bohnman.squiggly.web.RequestSquigglyContextProvider;
-import com.github.bohnman.squiggly.web.SquigglyRequestFilter;
+import com.github.jacquant.squiggly.Squiggly;
+import com.github.jacquant.squiggly.web.RequestSquigglyContextProvider;
+import com.github.jacquant.squiggly.web.SquigglyRequestFilter;
 import com.google.common.collect.Iterables;
 import org.hibernate.collection.spi.PersistentCollection;
 import org.springframework.boot.SpringApplication;
@@ -34,7 +34,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.data.domain.Page;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 
 @SpringBootApplication
 public class SampleDataJpaApplication {

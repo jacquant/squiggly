@@ -1,11 +1,11 @@
-package com.github.bohnman.squiggly.examples.servlet.util;
+package com.github.jacquant.squiggly.examples.servlet.util;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.bohnman.squiggly.Squiggly;
-import com.github.bohnman.squiggly.examples.servlet.web.ListResponse;
-import com.github.bohnman.squiggly.web.RequestSquigglyContextProvider;
+import com.github.jacquant.squiggly.Squiggly;
+import com.github.jacquant.squiggly.examples.servlet.web.ListResponse;
+import com.github.jacquant.squiggly.web.RequestSquigglyContextProvider;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 
 public class Jackson {
 

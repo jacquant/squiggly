@@ -1,6 +1,6 @@
-package com.github.bohnman.examples.springdatarest;
+package com.github.jacquant.examples.springdatarest;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.util.List;
 
 @Entity

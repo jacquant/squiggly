@@ -1,8 +1,8 @@
-package com.github.bohnman.squiggly.examples.standalone;
+package com.github.jacquant.squiggly.examples.standalone;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.bohnman.squiggly.Squiggly;
-import com.github.bohnman.squiggly.examples.standalone.model.Issue;
+import com.github.jacquant.squiggly.Squiggly;
+import com.github.jacquant.squiggly.examples.standalone.model.Issue;
 
 import java.io.File;
 

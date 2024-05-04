@@ -1,4 +1,4 @@
-package com.github.bohnman.squiggly.examples.springboot.model;
+package com.github.jacquant.squiggly.examples.springboot.model;
 
 public class ErrorResponse {
 

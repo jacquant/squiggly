@@ -1,17 +1,17 @@
-package com.github.bohnman.squiggly.examples.dropwizard;
+package com.github.jacquant.squiggly.examples.dropwizard;
 
-import com.github.bohnman.squiggly.Squiggly;
-import com.github.bohnman.squiggly.examples.dropwizard.web.IssueResource;
-import com.github.bohnman.squiggly.examples.dropwizard.web.ListResponse;
-import com.github.bohnman.squiggly.web.RequestSquigglyContextProvider;
-import com.github.bohnman.squiggly.web.SquigglyRequestFilter;
+import com.github.jacquant.squiggly.Squiggly;
+import com.github.jacquant.squiggly.examples.dropwizard.web.IssueResource;
+import com.github.jacquant.squiggly.examples.dropwizard.web.ListResponse;
+import com.github.jacquant.squiggly.web.RequestSquigglyContextProvider;
+import com.github.jacquant.squiggly.web.SquigglyRequestFilter;
 import io.dropwizard.Application;
 import io.dropwizard.configuration.ResourceConfigurationSourceProvider;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 
-import javax.servlet.DispatcherType;
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.DispatcherType;
+import jakarta.servlet.http.HttpServletRequest;
 import java.util.EnumSet;
 
 public class IssueApplication extends Application<IssueConfiguration> {

@@ -1,6 +1,6 @@
-package com.github.bohnman.squiggly.examples.standalone.model;
+package com.github.jacquant.squiggly.examples.standalone.model;
 
-import com.github.bohnman.squiggly.view.FullView;
+import com.github.jacquant.squiggly.view.FullView;
 
 public class IssueAction extends BaseIssue {
 

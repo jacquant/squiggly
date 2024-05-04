@@ -1,6 +1,6 @@
-package com.github.bohnman.squiggly.examples.dropwizard.model;
+package com.github.jacquant.squiggly.examples.dropwizard.model;
 
-import com.github.bohnman.squiggly.view.PropertyView;
+import com.github.jacquant.squiggly.view.PropertyView;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;

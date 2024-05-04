@@ -1,9 +1,9 @@
-package com.github.bohnman.examples.springdatarest;
+package com.github.jacquant.examples.springdatarest;
 
-import com.github.bohnman.squiggly.Squiggly;
-import com.github.bohnman.squiggly.context.provider.SquigglyContextProvider;
-import com.github.bohnman.squiggly.web.RequestSquigglyContextProvider;
-import com.github.bohnman.squiggly.web.SquigglyRequestFilter;
+import com.github.jacquant.squiggly.Squiggly;
+import com.github.jacquant.squiggly.context.provider.SquigglyContextProvider;
+import com.github.jacquant.squiggly.web.RequestSquigglyContextProvider;
+import com.github.jacquant.squiggly.web.SquigglyRequestFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,8 +15,8 @@ import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurerAdapter;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 
-import javax.persistence.EntityManager;
-import javax.persistence.metamodel.Type;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.metamodel.Type;
 
 @SpringBootApplication
 public class Application {
