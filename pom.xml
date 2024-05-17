@@ -32,7 +32,7 @@
         <maven-gpg-plugin.version>3.2.4</maven-gpg-plugin.version>
         <maven-jar-plugin.version>3.4.1</maven-jar-plugin.version>
         <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
-        <junit-jupiter-api.version>5.11.0-M1</junit-jupiter-api.version>
+        <junit-jupiter-api.version>5.11.0-M2</junit-jupiter-api.version>
     </properties>
 
     <licenses>
